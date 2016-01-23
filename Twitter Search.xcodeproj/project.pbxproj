@@ -18,6 +18,8 @@
 		EC80C6A71C52EB1E00708704 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC80C6A61C52EB1E00708704 /* Social.framework */; };
 		EC80C6A91C52EB9700708704 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC80C6A81C52EB9700708704 /* Accounts.framework */; };
 		EC80C6AB1C53023200708704 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC80C6AA1C53023200708704 /* Twitter.framework */; };
+		ECA812B21C5318BE006F0839 /* Tweet+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA812AF1C5318BE006F0839 /* Tweet+CoreDataProperties.m */; };
+		ECA812B31C5318BE006F0839 /* Tweet.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA812B11C5318BE006F0839 /* Tweet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		EC80C6A61C52EB1E00708704 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		EC80C6A81C52EB9700708704 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		EC80C6AA1C53023200708704 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		ECA812AE1C5318BE006F0839 /* Tweet+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tweet+CoreDataProperties.h"; sourceTree = "<group>"; };
+		ECA812AF1C5318BE006F0839 /* Tweet+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tweet+CoreDataProperties.m"; sourceTree = "<group>"; };
+		ECA812B01C5318BE006F0839 /* Tweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tweet.h; sourceTree = "<group>"; };
+		ECA812B11C5318BE006F0839 /* Tweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tweet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 		EC5718631C522EE10030C49B /* Twitter Search */ = {
 			isa = PBXGroup;
 			children = (
+				ECA812AE1C5318BE006F0839 /* Tweet+CoreDataProperties.h */,
+				ECA812AF1C5318BE006F0839 /* Tweet+CoreDataProperties.m */,
+				ECA812B01C5318BE006F0839 /* Tweet.h */,
+				ECA812B11C5318BE006F0839 /* Tweet.m */,
 				EC5718671C522EE10030C49B /* AppDelegate.h */,
 				EC5718681C522EE10030C49B /* AppDelegate.m */,
 				EC57186A1C522EE10030C49B /* ViewController.h */,
@@ -241,8 +251,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA812B21C5318BE006F0839 /* Tweet+CoreDataProperties.m in Sources */,
 				EC57186C1C522EE10030C49B /* ViewController.m in Sources */,
 				EC5718691C522EE10030C49B /* AppDelegate.m in Sources */,
+				ECA812B31C5318BE006F0839 /* Tweet.m in Sources */,
 				EC5718661C522EE10030C49B /* main.m in Sources */,
 				EC5718721C522EE10030C49B /* Twitter_Search.xcdatamodeld in Sources */,
 			);
